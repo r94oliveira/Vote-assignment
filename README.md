@@ -1,33 +1,33 @@
-Tecnologia em Análise e Desenvolvimento de Sistemas
+# Atividade React
 
-Setor de Educação Profissional e Tecnológica - SEPT
+## Descrição
 
-Universidade Federal do Paraná - UFPR
+Utilizar React.js e create-react-app. O sistema de votação deve ser simples. De forma geral, um objeto chamado candidates, que contém o nome dos candidatos, deve ser lido (pode estar hardcoded no App.js). A partir desse objeto, cada candidato será exibido na tela com uma quantidade de votos (zero a princípio) e um botão votar. Ao clicar no botão votar de um determinado candidato, seu contador de votos deve ser incrementado em uma unidade. Ao final da contagem, um botão "Finalizar contagem" será pressionado. O conteúdo da tela será, então, substituído pela relação de candidatos e a quantidade de seus votos e uma mensagem informando o vencedor deverá ser apresentada.
 
----
+## Instalar dependências, etc.
 
-*DS151 - Desenvolvimento para Dispositivos Móveis*
+### `npm install`
+### `npm i react-bootstrap`
+### `npm i bootstrap`
+### `npm install node-sass@4.14.1`
 
-Prof. Alexander Robert Kutzke
+## Rodar o projeto
 
-* [Instruções para submissão de tarefas e trabalhos](https://gitlab.tadsufpr.net.br/ds122-alexkutzke/material/blob/master/instrucoes_submissao_tarefas_e_trabalhos.md)
-* [Video aula](https://www.youtube.com/watch?v=d6ZTnQNhoCo)
+### `npm start`
 
-# Atividade React 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Você foi contratado pelo governo de um país norte americano para modernizar
-o processo de contagem dos votos das eleições dessa nação.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Para isso, você deve utilizar `React.js` e `create-react-app`. É uma exigência do departamento de inteligência
-do governo. *We can neither confirm nor deny this information*.
+### `npm run build`
 
-O sistema de votação deve ser simples. De forma geral, um objeto chamado `candidates`, que contém o nome dos candidatos, deve ser lido (pode estar *hardcoded* no `App.js`). A partir desse objeto, cada candidato será exibido na tela com uma quantidade de votos (zero a princípio) e um botão votar. Ao clicar no botão votar de um determinado candidato, seu contador de votos deve ser incrementado em uma unidade. Apenas uma. Não queremos denúncias de fraude.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Ao final da contagem, um botão "Finalizar contagem" será pressionado. O conteúdo da tela será, então, substituído pela relação de candidatos e a quantidade de seus votos e uma mensagem informando o vencedor deverá ser apresentada.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Exemplo de funcionamento:
-
-![Sistema de votação](images/exemplo.gif)
-
-"Pontos extras para um layout maneiro" =>  *We can neither confirm nor deny this information*.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
