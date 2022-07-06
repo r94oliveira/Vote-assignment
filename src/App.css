@@ -1,6 +1,32 @@
-.App {
+.app {
   text-align: center;
+  margin: 5%;
 }
+
+.app .card .card-title {
+      text-align: center;
+    }
+
+.empateClass{
+  margin:10px;
+  color:red;
+  font-weight: bold;
+  text-align: justify;
+
+}
+
+.winnerText{
+  color:green;
+  font-weight: bold;
+}
+
+    button {
+      width: 100%;
+    }
+
+.buttonVote {
+      width: 100%;
+    }
 
 .App-logo {
   height: 40vmin;

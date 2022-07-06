@@ -9,7 +9,7 @@ function VotingCard(props) {
       
       <Card.Body>
         <Card.Title>{candidate.name}</Card.Title>
-        <Button variant="success" onClick={() => incrementVoteCount(candidate._id)}>
+        <Button variant="primary" onClick={() => incrementVoteCount(candidate._id)}>
           Votar
         </Button>
       </Card.Body>
